@@ -1,0 +1,13 @@
+1.Qual sua experiência com a linguagem JAVA? Por favor, nomeie o principal projeto o qual você utilizou esta linguagem, os principais frameworks envolvidos e a arquitetura utilizada.
+R: Profissionalmente, trabalhei com Java durante 2 meses, mas devido a grande demanda que a empresa onde trabalho tem por desenvolvedores desktop, acabei voltando à trabalhar em projetos com outra linguagem (Delphi). 
+Fora do ambiente profissional, conclui há pouco tempo minha pós graduação em Tecnologia Java e desenvolvi como trabalho de conclusão de curso uma aplicação para gerenciar empréstimos de equipamentos eletrônicos, sendo que a espectativa é implantar esse projeto em alguns departamentos acadêmicos da universidade onde estudei. 
+Como tecnologias utilizei o Spring Framework e seus projetos (Spring Boot, Spring Security, Spring Data JPA, Spring WebSocket, Spring Mail), além do Flyway, Lombok, Angular, PrimeNG, Bootstrap, StompJS, momentJS. A aplicação basicamente consiste em uma API Stateless que expõe endpoint para que uma aplicação cliente, construída sob o conceito de SPA, possa consumi-la. 
+
+2.Você possui experiência em alguma outra linguagem para back-end?
+R: Além do Java, apenas o Delphi.
+
+3.Qual sua experiência em virtualização de ambientes, exemplo: Docker?
+R: Apenas em estudos pessoais. Profissionalmente não utilizo.
+
+4.Quais foram seus cargos nos times que você contribuiu (considerando os seus últimos projetos/trabalhos que você trabalhou)? Qual era o tamanho destes times?
+R: Desde que comecei a trabalhar com software, atuei apenas nos times de atendimento ao cliente e de desenvolvimento. Fiquei durante 1 ano e 6 meses como atendente e como desenvolvedor trabalho há pouco mais de 5 anos.
