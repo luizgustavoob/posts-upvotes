@@ -1,0 +1,7 @@
+<div class="text-center mt-1 mb-1" *ngIf="hasMore; else message">
+  <button class="btn btn-primary">Carregar mais posts</button>
+</div>
+
+<ng-template #message>
+  <p class="text-center text-muted mt-1 mb-1">Não há mais nenhum post ;(</p>
+</ng-template>

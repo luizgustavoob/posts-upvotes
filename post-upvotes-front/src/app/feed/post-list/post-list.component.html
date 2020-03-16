@@ -1,0 +1,7 @@
+<ol class="list-unstyled">
+  <li *ngFor="let post of posts" class="row no-gutters">
+    <div class="col-md-8 offset-2 mt-2">
+      <app-post-card [post]="post"></app-post-card>
+    </div>
+  </li>
+</ol>
