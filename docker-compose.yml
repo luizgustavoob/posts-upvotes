@@ -1,0 +1,14 @@
+version: '3.0'
+
+services:
+  front:
+    build: ./post-upvotes-front/
+    ports:
+      - "4200:4200"
+    depends_on: 
+      - api
+
+  api:
+    build: ./posts-upvotes/
+    ports:
+      - "8080:8080"

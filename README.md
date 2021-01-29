@@ -20,30 +20,13 @@ Primeiramente, deve-se baixar o repositório em algum diretório físico do comp
 
 ### Pré-requisitos
 
-* [Node](https://nodejs.org/en/)
-* [Angular CLI](https://cli.angular.io/)
-* [Maven](https://maven.apache.org/)
+* [Docker](https://www.docker.com/)
+### Execução
 
-### Execução - API
+Com o diretório disponível no computador, deve-se acessar a pasta raiz do projeto pelo terminal e digitar o comando
+```
+  docker-compose up
+```
+e a aplicação será iniciada. 
 
-Com o diretório disponível no computador, deve-se acessar a pasta *posts-upvotes* pelo terminal e digitar o comando
-```
-  mvn clean package
-```
-para que o arquivo **.jar** da API seja gerado. Na sequência, digitar o comando
-```
-  java -jar target\posts-upvotes-0.0.1-SNAPSHOT.jar
-```
-e a aplicação back-end será iniciada.
-
-### Execução - Cliente
-
-Através de outro terminal, deve-se acessar a pasta *post-upvotes-front* e inicialmente digitar o comando
-```
-  npm install
-```
-para que as dependências necessárias ao projeto sejam baixadas. Após isso, digitar o comando 
-```
-  ng serve --open
-```
-e a aplicação cliente será aberta no navegador.
+Para visualização da aplicação no navegador, acesse ```http://localhost:4200```
