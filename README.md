@@ -3,6 +3,7 @@
 Este repositório contém os projetos utilizados na criação de uma aplicação que permite a postagem de textos livres, sendo que estes textos podem receber *upvotes*.
 
 ## Tecnologias
+
 * [Spring Boot](https://spring.io/projects/spring-boot)
 * [String Data JPA](https://spring.io/projects/spring-data-jpa)
 * [Maven](http://maven.apache.org/)
@@ -14,19 +15,21 @@ Este repositório contém os projetos utilizados na criação de uma aplicação
 * [Bootstrap](https://getbootstrap.com/)
 * [Angular Font Awesome](https://fontawesome.com/how-to-use/on-the-web/using-with/angular)
 
+## Pré-requisitos
+
+* [Docker](https://www.docker.com/)
+* [Docker Compose](https://docs.docker.com/compose/)
+* [Makefile](https://www.gnu.org/software/make/manual/make.html)
+
 ## Execução
 
 Primeiramente, deve-se baixar o repositório em algum diretório físico do computador.
+Com o diretório disponível, deve-se acessar a pasta raiz do projeto pelo terminal e digitar o comando
 
-### Pré-requisitos
-
-* [Docker](https://www.docker.com/)
-### Execução
-
-Com o diretório disponível no computador, deve-se acessar a pasta raiz do projeto pelo terminal e digitar o comando
+```shell
+  make up
 ```
-  docker-compose up
-```
-e a aplicação será iniciada. 
+
+e a aplicação será iniciada.
 
 Para visualização da aplicação no navegador, acesse ```http://localhost:4200```
